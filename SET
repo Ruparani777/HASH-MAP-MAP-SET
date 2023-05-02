@@ -1,3 +1,25 @@
 SET STORES UNIQUE VALUES,NO DUPLICATES
 
-1.DECLARE:
+
+1.DECLARING
+2.PRESTORING
+3.FETCHING
+
+
+1.DECLARING:
+Set<int,int>s;//s== name as ur wish
+
+2.prestoring
+for(zero to n){
+s.insert[arr[i]];
+}
+
+3.FECTHING
+mpp[num]
+OR 
+ITERATE
+
+FOR(AUTO & IT: s){
+ PRINT IT.FIRST AND IT,SECOND
+ }
+
