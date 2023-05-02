@@ -1,0 +1,21 @@
+HASHING IS FOR PRESTORING /FETCHING whenever it is required:
+
+
+1.DECLARING
+2.PRESTORING
+3.FETCHING
+
+
+1.int hash[N+1]={0};
+N= max element of array .
+find max element of array first
+
+
+2.PRESTORING
+for loop from 0 to n-1
+hash[arr[i]]++;
+
+3.FETCH  /// it starts at 1 (1,2,4,5)  each element comes 1 time atleast but 3  comes 0 times
+FOR(1 TO N){
+if(hash[i]==0)//3 comes 0 times{
+return i;}//3
