@@ -1,0 +1,23 @@
+MAP ---STORED ALL VALUES IN SORTED ORDER 
+
+1.DECLARING
+2.PRESTORING
+3.FETCHING
+
+
+1.DECLARING:
+MAP<int,int>mpp;//mpp== name as ur wish
+
+2.prestoring
+for(zero to n){
+mpp[arr[i]]++;
+}
+
+3.FECTHING
+mpp[num]
+OR 
+ITERATE
+
+FOR(AUTO & IT: MPP){
+ PRINT IT.FIRST AND IT,SECOND
+ }
