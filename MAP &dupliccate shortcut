@@ -21,3 +21,9 @@ ITERATE
 FOR(AUTO & IT: MPP){
  PRINT IT.FIRST AND IT,SECOND
  }
+
+
+unordered_map<int,int> mpp;
+        for(auto i:nums)
+            if(++mpp[i]>1) return true;
+        return false;
